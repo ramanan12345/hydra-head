@@ -1,8 +1,5 @@
 ActiveFedora::QueryMethods.module_eval do
   extend ActiveSupport::Concern
-  included do
-    include Hydra::AccessControlsEnforcement
-  end
 
   def accessible_by(ability, action = :index)
     permission_types = case action

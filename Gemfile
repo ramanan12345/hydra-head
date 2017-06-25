@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem 'rspec-its'
+gem 'blacklight-access_controls', github: 'blacklight/blacklight-access_controls'
 # Specify gem dependencies in hydra-head.gemspec
 gemspec
 
